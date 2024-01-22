@@ -1,0 +1,31 @@
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+  }
+  .navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+  }
+  .navigation ul li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent */
+    font-weight: 500;
+  }
+  .navigation button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    width: 75px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
